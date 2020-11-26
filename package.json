@@ -30,7 +30,6 @@
   "lint-staged": {
     "components/**/*.ts?(x)": [
       "prettier --write",
-      "eslint --fix",
       "jest --bail --findRelatedTests",
       "git add"
     ],
